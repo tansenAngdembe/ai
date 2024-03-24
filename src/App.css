@@ -1,0 +1,237 @@
+/* nav section */
+.logo {
+  width: 3rem;
+}
+
+/* Hero section */
+.navlist {
+  display: flex;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  justify-content: space-between;
+  border-bottom: 2px solid whitesmoke;
+  background: #e9f1ef;
+  place-items: center;
+  padding: 0 4rem;
+}
+
+nav {
+  display: flex;
+  gap: 5rem;
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  padding: 28px;
+  flex-direction: column;
+  gap: 6rem;
+  position: relative;
+  top: 5px;
+
+}
+
+.top-hero {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border-radius: 17px;
+  padding: 17px;
+  background-image: linear-gradient(275.7deg, #544e4e 0%, #a6c1ba 76.61%);
+  color: black;
+}
+
+.image {
+  width: 20rem;
+}
+
+.hero-image {
+  display: flex;
+  align-items: center;
+  place-content: center;
+}
+
+.image3 {
+  width: 13rem;
+  height: auto;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.image3:hover {
+  transform: scale(1.2);
+}
+
+.mid-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mid-hero-img {
+  display: flex;
+  gap: 10rem;
+  padding: 0 5rem;
+  align-items: center;
+}
+
+.short-dis {
+  color: rgb(7, 39, 61);
+  text-shadow: 4px 6px #c1acac;
+}
+
+.last-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  place-content: center;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 30% auto;
+  background: rgb(0 0 0);
+  color: white;
+
+}
+
+.footer-info {
+  border-bottom: 1px solid rgb(199, 192, 192);
+  border-right: 1px solid rgb(199, 192, 192);
+  padding: 2rem;
+}
+
+.footer-links {
+  border-bottom: 1px solid rgb(199, 192, 192);
+  padding: 2rem;
+}
+
+/*  for models components */
+.models {
+  border-left: 2px solid #d9d6d2;
+  margin: 10px;
+}
+
+.avater {
+  width: 5rem;
+}
+
+.library {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 2rem;
+  margin: 28px;
+}
+
+.avater-details {
+  display: grid;
+  grid-template-columns: 20% auto;
+  border: 2px solid #cfd4d9;
+  padding: 7px;
+  box-shadow: 2px red;
+  box-shadow: 4px 4px #c2dfdf;
+}
+
+.audioTrack {
+  width: 16rem;
+  height: 3rem;
+}
+
+.av-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  align-items: center;
+}
+
+.avater-name {
+  font-weight: bold;
+  color: #29295a;
+}
+
+
+/* for voiceLab components */
+.my-features {
+  margin: 2rem;
+}
+
+.features-details {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  border-bottom: 1px solid #9b8787;
+}
+
+.create-voice {
+  border-right: 1px solid #9b8787;
+  margin: 2px;
+  padding: 0 11px;
+}
+
+.userData {
+  padding: 4px;
+  border-radius: 8px;
+  border: 3px solid #a9a1a1;
+  width: 852px;
+  height: 250px;
+  background: transparent;
+  color: black;
+  resize: vertical;
+}
+
+.submitButton {
+  height: 31px;
+  border-radius: 7px;
+  border: 1px solid gray;
+  font-weight: 800;
+}
+
+
+/* This is for the voiceCollection components */
+.voice_coll_style{
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 19rem;
+}
+.voice_coll_style::-webkit-scrollbar {
+  display: none;
+}
+/* for showmodel */
+.showModels{
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+align-items: center;
+background:whitesmoke;
+}
+.show_modal_input{
+  width: 12rem;
+  height: 1rem;
+  background: none;
+  border: 2px solid #647064;
+  font-size: large;
+  padding: 6px;
+  margin: 3px;  
+  color: black;
+  border-radius: 16px;
+}
+/* for showmodels components */
+.showmodels_fixed{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+ background-color: rgba(189, 189, 189,0.2) ;
+ /* z-index: 9999; */
+
+}
+.showModels{
+  position: fixed; 
+  left: 70%;
+  position: fixed;
+  left: 70%;
+  border: 2px solid #a39292;
+  padding: 1rem;
+  border-radius: 28px;
+}
